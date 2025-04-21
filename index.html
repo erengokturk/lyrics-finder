@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Şarkı Sözü Bulucu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Şarkı Sözü Bulucu</h1>
+      <form id="lyrics-form">
+        <input type="text" id="artist" placeholder="Sanatçı Adı" required />
+        <input type="text" id="song" placeholder="Şarkı Adı" required />
+        <button type="submit">Sözleri Getir</button>
+      </form>
+      <div id="lyrics-container">
+        <pre id="lyrics"></pre>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
